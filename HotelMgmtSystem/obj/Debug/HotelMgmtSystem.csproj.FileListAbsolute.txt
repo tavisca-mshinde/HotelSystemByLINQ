@@ -1,0 +1,6 @@
+D:\HotelMgmtSystem\HotelMgmtSystem\bin\Debug\HotelMgmtSystem.exe.config
+D:\HotelMgmtSystem\HotelMgmtSystem\bin\Debug\HotelMgmtSystem.exe
+D:\HotelMgmtSystem\HotelMgmtSystem\bin\Debug\HotelMgmtSystem.pdb
+D:\HotelMgmtSystem\HotelMgmtSystem\obj\Debug\HotelMgmtSystem.csprojResolveAssemblyReference.cache
+D:\HotelMgmtSystem\HotelMgmtSystem\obj\Debug\HotelMgmtSystem.exe
+D:\HotelMgmtSystem\HotelMgmtSystem\obj\Debug\HotelMgmtSystem.pdb

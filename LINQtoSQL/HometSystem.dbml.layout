@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="HometSystem">
+  <DataContextMoniker Name="/HometSystemDataContext" />
+  <nestedChildShapes>
+    <classShape Id="039338fa-0bde-4274-9fc0-25a159865274" absoluteBounds="6.25, 3.5, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/HometSystemDataContext/BookingDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35858935-2a09-4a5f-a662-0625030019b3" absoluteBounds="6.265, 3.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2dacb90f-9221-4ff3-98ef-679daa843586" absoluteBounds="3.5, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HometSystemDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e9dd562-ec98-4293-87c6-725dad76ee62" absoluteBounds="3.515, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1be8fc60-4eff-4f13-a000-d1a3e4484f1a" absoluteBounds="0.75, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HometSystemDataContext/Hotel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2fe171ed-a4f3-4cb3-9bf2-a669d57090dc" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b59d0819-48c3-43d4-ac01-44834a45e59a" absoluteBounds="3.5, 3.625, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/HometSystemDataContext/Room" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8d500820-ea0c-47fb-a33f-7dbbed3c3662" absoluteBounds="3.515, 4.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 1.53929768880208); (7.25 : 1.53929768880208); (7.25 : 3.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HometSystemDataContext/Customer/Customer_BookingDetail" />
+      <nodes>
+        <classShapeMoniker Id="2dacb90f-9221-4ff3-98ef-679daa843586" />
+        <classShapeMoniker Id="039338fa-0bde-4274-9fc0-25a159865274" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.32859537760417); (3.125 : 5.70359537760417); (3.125 : 5.8381982421875); (5.875 : 5.8381982421875); (6.25 : 5.4631982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/HometSystemDataContext/Hotel/Hotel_BookingDetail" />
+      <nodes>
+        <classShapeMoniker Id="1be8fc60-4eff-4f13-a000-d1a3e4484f1a" />
+        <classShapeMoniker Id="039338fa-0bde-4274-9fc0-25a159865274" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.51044840494792); (6.25 : 4.51044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HometSystemDataContext/Room/Room_BookingDetail" />
+      <nodes>
+        <classShapeMoniker Id="b59d0819-48c3-43d4-ac01-44834a45e59a" />
+        <classShapeMoniker Id="039338fa-0bde-4274-9fc0-25a159865274" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.50804518880208); (3.5 : 4.50804518880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HometSystemDataContext/Hotel/Hotel_Room" />
+      <nodes>
+        <classShapeMoniker Id="1be8fc60-4eff-4f13-a000-d1a3e4484f1a" />
+        <classShapeMoniker Id="b59d0819-48c3-43d4-ac01-44834a45e59a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
